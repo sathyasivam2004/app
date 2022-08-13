@@ -1,0 +1,38 @@
+.footer{
+    padding: 50px 0px;
+    background: #f5caca;
+}
+
+.footer-logo-img{
+    width: 60px;
+}
+
+.footer__logo h5{
+    font-weight: 550;
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.delivery-time{
+    background: transparent !important;
+    background-color: #f5caca;
+}
+
+.delivery-time span{
+    font-weight: 600;
+    font-size:1rem;
+    color: #212245;
+}
+
+.delivery-time p{
+    font-weight: 300;
+    font-size: .8rem;
+    color: #333;
+}
+
+.delivery__title{
+    font-size: 1.13rem;
+    font-weight: 600;
+    color: #212245;
+}

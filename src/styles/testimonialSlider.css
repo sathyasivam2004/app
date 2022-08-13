@@ -1,0 +1,23 @@
+.entire__slider{
+    margin: 20px;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+}
+
+.slider__content p{
+    color: #a0a0a0;
+    margin: 10px;
+}
+
+.avatarImg{
+    width: 50px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.avatarImg__Name{
+    margin-left: 10px;
+}

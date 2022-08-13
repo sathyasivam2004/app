@@ -1,0 +1,35 @@
+.category__item{
+    display: flex;
+    align-items: center;
+    gap: 3;
+    padding: 20px;
+}
+
+.category__img img{
+    width: 40px;
+}
+
+.category__name{
+    font-size: 17px;
+    margin: 8px;
+    color: #212245;
+}
+
+@media screen and (max-width:900px){
+    .category__item{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.category__item{
+    background-color: #f5caca;
+    margin: 10px;
+    border-radius: 7px;
+    transition: .4s;
+}
+
+.category__item:hover{
+    transform: translateY(-10px);
+}
+

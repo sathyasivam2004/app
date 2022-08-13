@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+
+
+.hero__content h5,.hero__content h1{
+   text-align: center;
+   margin: 5px;
+}
+
+.hero__content p{
+    text-align: center;
+    margin: 10px;
+    color: #a0a0a0;
+    margin-top: 15px;
+}
+
+.hero-title{
+    font-size: 2rem;
+}
+
+.hero-title span {
+    color: #df2020;
+}
+
+.home__button{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.order__button{
+    color:#ffffff;
+    margin: 20px;
+}
+
+button:nth-child(2){
+    background-color: #ffffff;
+    color: #df2020;
+}
+
+.shipping-charge{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5;
+    margin: 30px;   
+}
+
+.shipping-charge p{
+    font-size: .9rem;
+    font-weight: 600;
+    color: #212245;
+}
+.shipping-icon{
+    background: #df2020;
+    padding: 5px;
+    gap: 2;
+    color:#ffffff;
+    border-radius: 50px;
+    justify-content: end
+}
+
+.hero-img{
+    margin: 5px;
+    margin-bottom: -40px;
+}
+
+.what_we_serve{
+    margin-top: -20px;
+    text-align: center;
+    color: #df2020;
+    font-size: 20px;
+}
+
+.what_we_serve p{
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.what_we_serve span{
+    color: #df2020;
+}
+
+.what_we_serve div{
+    color: #a0a0a0;
+    margin: 40px;
+    margin-top: 20px;
+}
+
+
+.feature__img{
+    width:70px;
+    display: block;
+    margin: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+@media screen and (max-width:770px){
+    .feature__row{
+        flex-direction: column;
+    }
+}
+
+.feature__title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #212245;
+    text-align: center;
+    margin: 5px;
+}
+
+.feature__des{
+    color: #a0a0a0;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.food__category{
+    background: #df2020;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 8px
+}
+
+.food__category button{
+    border: none;
+    background: #df2020;
+    color: #ffffff;
+    outline: none;
+    padding: 7px 20px;
+}
+
+.food__category img{
+    width: 40px;
+    padding-right: 10px;
+}
+
+.foodbBtnActive{
+    background-color: #ffffff !important;
+    color: #df2020 !important;
+    border-radius: 5px;
+}
+
+.location__img{
+    max-width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width:770px){
+    .location__img{
+        width: 300px;
+    }
+}
+
+
+.tasty__treat h2{
+    text-align: center;
+    font-family: "RocknRoll One", sans-serif !important;
+}
+
+.tasty__treat span{
+    color: #df2020;
+}
+
+.tasty__treat__des{
+    color: #a0a0a0;
+    margin-top: 30px;
+    margin: 30px;
+}
+
+.check__icon{
+    font-size: 20px ;
+}
+
+.tasty__treat__sub__cat{
+    text-align: center;
+    margin-top: 10px;
+    font-family: "RocknRoll One", sans-serif !important;
+}
+
+.check__icon i{
+   padding: 10px;
+   color: #df2020 ;
+}
+
+.check__icon h6{
+    font-weight: 600;
+    color: #212245;
+ }
+
+.tasty__treat__sub__cat p{
+    color: #a0a0a0;
+    margin-top: 20px;
+    font-family: "RocknRoll One", sans-serif !important;
+}
+
+.testimonial{
+    color: #df2020;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    font-family: "RocknRoll One", sans-serif !important;
+}
+
+.testimonial__title{
+    margin-right: 10px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.testimonial__title span {
+    color: #df2020;
+}
+
+.testimonial__para{
+    margin-top: 20px;
+    color: #a0a0a0;
+}
